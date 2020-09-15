@@ -7,8 +7,14 @@ body {
   font-family: 'lato';
   scroll-behavior: smooth;
 }
+.header-container {
+  position: relative;
+  top: 0;
+  padding: 7em 0;
+  text-transform: uppercase;
+}
 .header-container, .main-menu {
-  background-color: #00134d;
+  background: linear-gradient(to right, #00134d, #111111);
 }
 .nav-link {
   text-transform: uppercase;
@@ -19,7 +25,8 @@ body {
 }
 .header-content > h2 {
   line-height: 2;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
+  padding: 0 0.3em;
 }
 .navbar-toggler {
   font-size: small;
@@ -42,7 +49,7 @@ body {
   color: #00134d;
 }
 .about-content, .card .card-text {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   line-height: 2;
 }
 .card {
@@ -53,7 +60,11 @@ body {
   margin: 0.5em 2em;
   height: 350px;
 }
-
+.card .card-title {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: bolder;
+}
 .card > img {
   height: 150px;
 }
@@ -62,13 +73,15 @@ body {
   transition: height 0.2s ease-in-out;
 } 
 .main-menu {
+  position: absolute;
+  top: 0;
   width: 100%;
+  z-index: 999;
 }
 .fixed-top {
   position: fixed;
   top: 0;
   z-index: 9999;
-  transition: all 3s ease-in-out;
 }
 @media only screen and (min-width: 580px) {
   .nav-item > .btn {

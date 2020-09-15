@@ -19,7 +19,7 @@ function Features() {
                   <img className="card-img-top" src={Image1} alt="" />
                   <div className="card-body">
                     <h5 className="card-title p-2">Workflow Automation</h5>
-                    <p className="card-text px-3">Perform tedious sales tasks with ease an in less time</p>
+                    <p className="card-text px-3">Perform tedious sales tasks with ease and in less time</p>
                   </div>
                 </div>
               </div>
