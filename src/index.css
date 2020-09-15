@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'lato';
+  scroll-behavior: smooth;
+}
+.header-container, .main-menu {
+  background-color: #00134d;
+}
+.nav-link {
+  text-transform: uppercase;
+  font-size: small;
+}
+.header-content, .about-content {
+  text-align: center;
+}
+.header-content > h2 {
+  line-height: 2;
+  font-size: 1.6rem;
+}
+.navbar-toggler {
+  font-size: small;
+}
+.nav-item > .btn {
+  display: none;
+}
+.nav-item {
+  padding: 0.5em 0.5em;
+}
+.device-container {
+  display: none;
+}
+.device-container > .device > img {
+  width: 100%;
+}
+.section-heading > h1 {
+  text-transform: uppercase;
+  margin-top: 1.5em;
+  color: #00134d;
+}
+.about-content, .card .card-text {
+  font-size: 0.9rem;
+  line-height: 2;
+}
+.card {
+  border: none;
+  box-shadow: 2px 2px 3px 2.5px #dbdbdb;
+  text-align: center;
+  padding-top: 2em;
+  margin: 0.5em 2em;
+  height: 350px;
+}
+
+.card > img {
+  height: 150px;
+}
+.card:hover > img {
+  height: 155px;
+  transition: height 0.2s ease-in-out;
+} 
+.main-menu {
+  width: 100%;
+}
+.fixed-top {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  transition: all 3s ease-in-out;
+}
+@media only screen and (min-width: 580px) {
+  .nav-item > .btn {
+      display: inline;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .device-container {
+      display: block;
+  }
+  .card {
+      margin: 0.5em 0em;
+  }
+  .header-content, .about-content {
+      text-align: left;
+  }
+}
