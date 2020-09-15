@@ -19,10 +19,10 @@ function About() {
               <div className="col-lg-5 my-auto">
                   <div className="about-content mx-auto text-dark py-5">
                       <p><b><span className="text-info">EASY</span>CRM</b> is a useful tool for businesses of all sizes. It helps you boost sales by keeping an eye on customers, from nurturing leads to closing the sale and maintaining customer loyalty. 
-                      It will save you time and money through sales force automation. </p><br /><br /><br />
-                      <p><b><span className="text-info">EASY</span>CRM</b> is therefore the one-stop shop for your sales teams. 
+                      It will save you time and money through sales force automation. <br /><br />
+                      <b><span className="text-info">EASY</span>CRM</b> is therefore the one-stop shop for your sales teams. 
                       It can also be your gateway to increased sales productivity, healthier pipelines and better coordination between (and beyond) teams.
-                      Whether you are a startup, a small business, or an enterprise <b><span className="text-info">EASY</span>CRM</b> will help improve interactions with customers, optimizes sales performance, and streamlines business processes<p/>
+                     </p>
                   </div>
               </div>
           </div>

@@ -21,7 +21,7 @@ function Header() {
                                 <a className="nav-link text-white" href="#features">Features</a>
                             </li>
                             <li className="nav-item">
-                                <a className="btn btn-outline-warning mx-2 py-1" href="google.com">Get Started</a>
+                                <a className="btn btn-outline-warning mx-2 py-1" href="sdgcrm.herokuapp.com">Get Started</a>
                             </li>
                         </ul>
                     </div>
@@ -33,7 +33,7 @@ function Header() {
                     <div className="col-lg-5 my-auto">
                         <div className="header-content mx-auto text-white">
                             <h2 className="mb-5">Manage customer data  and grow your business efficiently with <b><span className="text-info">EASY</span>CRM</b></h2>
-                            <a href="#download" className="btn btn-outline-warning btn-xl js-scroll-trigger p-2">Get Started for Free!</a>
+                            <a href="sdgcrm.herokuapp.com" className="btn btn-outline-warning btn-xl js-scroll-trigger p-2">Get Started for Free!</a>
                         </div>
                     </div>
                     <div className="col-lg-7 my-auto">

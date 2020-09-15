@@ -3,7 +3,8 @@ import Header from './components/Header';
 // import Guide from './components/Guide';
 import Features from './components/Features';
 import Footer from './components/Footer';
-import About from './components/About'
+import About from './components/About';
+import './index.css'
 
 function App() {
   return (
