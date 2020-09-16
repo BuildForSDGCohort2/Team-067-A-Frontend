@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
       <Header />
       <Route path="/signup" component={() => {
-        window.location.href="https://sdgcrm.herokuapp.com"
+        window.location.href="https://sdgcrm.herokuapp.com/signup"
         return null
       }} />
       <Route path="/login" component={() => {

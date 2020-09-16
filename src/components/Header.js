@@ -13,10 +13,10 @@ function Header() {
                     <div className="collapse navbar-collapse" id="collapsibleNavId">
                         <ul className="navbar-nav ml-auto mt-lg-0 z4 font-weight-bold">
                             <li className="nav-item">
-                                <Link className="nav-link text-white" to="/login">Login</Link>
+                                <Link className="nav-link text-white" to="/login" target={"_blank"}>Login</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="btn btn-outline-warning mx-2 py-1" to="/signup">Get Started</Link>
+                                <Link className="btn btn-outline-warning mx-2 py-1" target={"_blank"} to="/signup">Get Started</Link>
                             </li>
                         </ul>
                     </div>
@@ -28,7 +28,7 @@ function Header() {
                     <div className="col-lg-5 my-auto">
                         <div className="header-content mx-auto text-white">
                             <h2 className="mb-5">Manage customer data  and grow your business efficiently with <b><span className="text-info">EASY</span>CRM</b></h2>
-                            <Link to="/signup" className="btn btn-outline-warning btn-xl js-scroll-trigger p-2">Get Started for Free!</Link>
+                            <Link to="/signup" target={"_blank"} className="btn btn-outline-warning btn-xl js-scroll-trigger p-2">Get Started for Free!</Link>
                         </div>
                     </div>
                     <div className="col-lg-7 my-auto">
