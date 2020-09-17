@@ -67,10 +67,10 @@ body {
   font-weight: bolder;
 }
 .card > img {
-  height: 150px;
+  height: 100px;
 }
 .card:hover > img {
-  height: 155px;
+  height: 110px;
   transition: height 0.2s ease-in-out;
 } 
 .main-menu {
@@ -95,6 +95,7 @@ body {
   }
   .card {
       margin: 0.5em 0em;
+      height: 300px;
   }
   .header-content, .about-content {
       text-align: left;
