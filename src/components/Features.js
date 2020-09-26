@@ -41,14 +41,14 @@ function Features() {
     ]);
     return (
         <section className="features" id="features">
-            <div className="section-heading text-center pb-3">
+            <div className="section-heading text-center pb-3" data-aos="fade-up">
               <h1>Features</h1>
               <p className="text-muted">Check out what you can do with our app!</p>
             </div>
             <div className="row mt-5">
               {data.map(datum => (
                 <div key={datum.image} className="col-lg-4 mb-3 col-md-6 col-sm-12">
-                  <div className="card m-md-0">
+                  <div className="card m-md-0" data-aos="flip-down">
                     <img className="card-img-top" src={datum.image} alt={datum.text} />
                     <div className="card-body">
                       <h5 className="card-title p-2">{datum.title}</h5>
