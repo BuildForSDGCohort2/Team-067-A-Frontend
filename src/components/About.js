@@ -35,7 +35,7 @@ function About() {
                          : ''
                       }
                       </p>
-                      <span onClick={handleRead} className="text-warning" style={{cursor: 'spanointer'}}>Read More</span>
+                      <span onClick={handleRead} className="text-warning" style={{cursor: 'pointer'}}>Read More</span>
                   </div>
               </div>
           </div>
