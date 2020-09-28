@@ -73,6 +73,12 @@ footer .logo {
   text-transform: uppercase;
   font-size: small;
 }
+.navbar-brand {
+  width: 10%;
+}
+.navbar-brand .logo {
+  width: 100%;
+}
 .header-content, .about-content {
   text-align: center;
 }
