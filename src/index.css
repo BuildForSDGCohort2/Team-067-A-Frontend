@@ -54,10 +54,13 @@ body {
   background: linear-gradient(to right, #00134d, #111111);
 }
 .logo {
-  width: 60%;
+  width: 40%;
+}
+.text-logo {
+  color: #0442ff;
 }
 footer .logo {
-  width: 10%;
+  width: 20%;
 }
 .header-content-container .col-lg-7 {
   display: none;
@@ -76,9 +79,6 @@ footer .logo {
 }
 .navbar-toggler {
   font-size: small;
-}
-.nav-item > .btn {
-  display: none;
 }
 .nav-item {
   padding: 0.5em 0.5em;
@@ -128,8 +128,13 @@ footer .logo {
   z-index: 9999;
 }
 @media only screen and (min-width: 580px) {
-  .nav-item > .btn {
-      display: inline;
+  footer .logo {
+    width: 12%;
+  }
+}
+@media only screen and (min-width: 600px) {
+  footer .logo {
+    width: 10%;
   }
 }
 @media only screen and (min-width: 1000px) {
