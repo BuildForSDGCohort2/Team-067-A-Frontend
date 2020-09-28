@@ -10,7 +10,7 @@ function Gallery() {
     return (
         <section className="gallery container pb-3" id="gallery">
             <div className="section-heading text-center pb-3" data-aos="fade-up">
-              <h2>Gallery</h2>
+              <h1>Gallery</h1>
               <p className="text-muted">Check out amazing images of the app!</p>
             </div>
             <div id="carouselId" className="carousel slide" data-ride="carousel">
