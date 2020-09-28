@@ -74,7 +74,8 @@ footer .logo {
   font-size: small;
 }
 .navbar-brand {
-  width: 10%;
+  border: 2px solid red;
+  width: 40%;
 }
 .navbar-brand .logo {
   width: 100%;
