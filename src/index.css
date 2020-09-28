@@ -6,6 +6,7 @@
 body {
   font-family: 'lato', "Segoe UI", Helvetica, Arial, sans-serif;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 .overlay {
   width: 100%;
@@ -52,6 +53,15 @@ body {
 .header-container, .main-menu {
   background: linear-gradient(to right, #00134d, #111111);
 }
+.logo {
+  width: 60%;
+}
+footer .logo {
+  width: 10%;
+}
+.header-content-container .col-lg-7 {
+  display: none;
+}
 .nav-link {
   text-transform: uppercase;
   font-size: small;
@@ -72,9 +82,6 @@ body {
 }
 .nav-item {
   padding: 0.5em 0.5em;
-}
-.device-container {
-  display: none;
 }
 .device-container > .device > img {
   width: 100%;
@@ -126,7 +133,7 @@ body {
   }
 }
 @media only screen and (min-width: 1000px) {
-  .device-container {
+  .header-content-container .col-lg-7 {
       display: block;
   }
   .card {

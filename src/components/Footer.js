@@ -7,7 +7,7 @@ function Footer() {
     }
     return (
     <footer className=" bg-dark py-5 text-white text-center mt-5">
-      <p>&copy; <span className="text-info">EASY</span>CRM {getYear()}. All Rights Reserved.</p>
+      <p>&copy; <img src='https://res.cloudinary.com/moversng/image/upload/v1598887746/easycrmx2_kqmi0r.svg' alt='logo' className='logo'/> {getYear()}. All Rights Reserved.</p>
     </footer>
     )
 }
