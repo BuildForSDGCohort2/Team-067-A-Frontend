@@ -49,8 +49,9 @@ body {
   }
 }
 .header-container {
+  position: relative;
   top: 0;
-  padding: 6em 0;
+  padding: 7em 0;
   text-transform: uppercase;
 }
 .header-container, .main-menu {
@@ -104,6 +105,10 @@ footer .logo {
   font-size: 0.95rem;
   line-height: 2;
 }
+.gallery {
+  position: relative;
+  padding: 7em 0;
+}
 .card {
   border: 2px solid #cfcfcf;
   box-shadow: 2px 2px 3px 2.5px #dbdbdb;
@@ -126,6 +131,7 @@ footer .logo {
   transition: height 0.2s ease-in-out;
 } 
 .main-menu {
+  position: absolute;
   width: 100%;
   z-index: 999;
 }
