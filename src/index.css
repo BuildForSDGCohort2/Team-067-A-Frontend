@@ -74,7 +74,6 @@ footer .logo {
   font-size: small;
 }
 .navbar-brand {
-  border: 2px solid red;
   width: 40%;
 }
 .navbar-brand .logo {
@@ -138,7 +137,15 @@ footer .logo {
   top: 0;
   z-index: 9999;
 }
+@media only screen and (min-width: 300px) and (max-width: 579px) {
+  .navbar-brand {
+    width: 25%;
+  }
+}
 @media only screen and (min-width: 580px) {
+  .navbar-brand {
+    width: 12%;
+  }
   footer .logo {
     width: 12%;
   }
