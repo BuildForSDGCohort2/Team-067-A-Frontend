@@ -6,7 +6,7 @@ function Footer() {
         return date.getFullYear()
     }
     return (
-    <footer className=" bg-dark py-5 text-white text-center mt-5">
+    <footer className="py-5 text-white text-center mt-5">
       <p>&copy; <img src='https://res.cloudinary.com/moversng/image/upload/v1598887746/easycrmx2_kqmi0r.svg' alt='logo' className='logo'/> {getYear()}. All Rights Reserved.</p>
     </footer>
     )

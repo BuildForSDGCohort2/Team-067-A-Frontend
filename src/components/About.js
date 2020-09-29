@@ -11,7 +11,7 @@ function About() {
         }
     } 
     return (
-        <section className="about border-bottom pb-5" id="about">
+        <section className="about pb-5" id="about">
           <div className="section-heading text-center pb-3" data-aos="fade-up">
             <h1>About</h1>
             <p className="text-muted">Know More About EasyCRM</p>
@@ -35,7 +35,9 @@ function About() {
                          : ''
                       }
                       </p>
-                      <span onClick={handleRead} className="text-warning" style={{cursor: 'pointer'}}>Read More</span>
+                      {
+                          read ? <div onClick={handleRead} className="show-btn" style={{cursor: 'pointer'}}>^</div> : <div onClick={handleRead} className="show-btn second" style={{cursor: 'pointer'}}>^</div>
+                      }
                   </div>
               </div>
           </div>

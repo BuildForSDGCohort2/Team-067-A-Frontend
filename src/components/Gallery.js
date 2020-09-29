@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import gallery1 from '../img/gallery1.png';
 import gallery2 from '../img/gallery2.png';
 import gallery3 from '../img/gallery3.png';
@@ -13,7 +14,8 @@ function Gallery() {
               <h1>Gallery</h1>
               <p className="text-muted">Check out amazing images of the app!</p>
             </div>
-            <div id="carouselId" className="carousel slide" data-ride="carousel">
+            <Link to='/' className="btn btn-outline-info btn-xl p-2 my-3 mx-3">&larr; Back to Home</Link>
+            <div id="carouselId" className="carousel slide gallery-lg" data-ride="carousel">
             <ol className="carousel-indicators">
                 <li data-target="#carouselId" data-slide-to="0" className="active"></li>
                 <li data-target="#carouselId" data-slide-to="1"></li>
@@ -51,7 +53,27 @@ function Gallery() {
                 <span className="sr-only">Next</span>
             </a>
         </div>
-            
+
+        <div className="gallery-sm container">
+            <div className="my-5">
+                <img src={gallery1} className="w-100 h-100" alt="First slide" />
+            </div>
+            <div className="my-5">
+                <img src={gallery2} className="w-100" alt="Second slide" />
+            </div>
+            <div className="my-5">
+                <img src={gallery3} className="w-100" alt="Third slide" />
+            </div>
+            <div className="my-5">
+                <img src={gallery4} className="w-100" alt="Fourth slide" />
+            </div>
+            <div className="my-5">
+                <img src={gallery5} className="w-100" alt="Fifth slide" />
+            </div>
+            <div className="my-5">
+                <img src={gallery6} className="w-100" alt="Sixth slide" />
+            </div>
+        </div>           
         </section>
     )
 }

@@ -2,6 +2,7 @@ import React, {useEffect} from 'react';
 import Header from './Header';
 import Features from './Features';
 import About from './About';
+import Banner from './Banner';
 
 const Main = () => {
     useEffect(()=>{
@@ -12,6 +13,7 @@ const Main = () => {
             <Header />
             <div className="container">
                 <About />
+                <Banner />
                 <Features />
             </div>
         </main>

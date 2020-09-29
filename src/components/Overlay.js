@@ -4,7 +4,7 @@ const Overlay = () => {
     return (
         <div className="overlay">
             <div className="wrapper">
-                <div className="text-white"><span className="text-info">EASY</span>CRM</div>
+            <img  alt='logo' src='https://res.cloudinary.com/moversng/image/upload/v1598887746/easycrmx2_kqmi0r.svg' className='preloader-logo border-red'/>
             </div>
         </div>
     )
