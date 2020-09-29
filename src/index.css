@@ -106,7 +106,7 @@ footer .logo {
 }
 .banner {
   position: relative;
-  padding: 6em;
+  padding: 6em 2em;
   text-transform: uppercase;
   text-align: center;
   line-height: 1.8;
