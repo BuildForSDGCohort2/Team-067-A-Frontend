@@ -3,11 +3,7 @@ import { NavLink, Link } from 'react-router-dom'
 
 function Navbar() {
     useEffect(()=>{
-        let link = document.querySelector('.nav-link');
         let menu = document.querySelector('.navbar-toggler');
-        link.addEventListener('click', function() {
-            menu.click();
-        });
         window.addEventListener('click', function() {
             if (menu.getAttribute('aria-expanded') === "true") {
                 menu.click();

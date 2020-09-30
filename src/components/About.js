@@ -19,7 +19,7 @@ function About() {
           <div className="row mt-3">
               <div className="col-lg-6 my-auto">
                   <div className="device-container">
-                      <div className="device">
+                      <div className="device about-image-container">
                           <img src={AboutImage} alt=" About Us" />
                       </div>
                   </div>

@@ -17,7 +17,17 @@ function App() {
     });
     setTimeout(()=>{
       setIsLoading(false)
-    },2000)
+    },2000);
+
+    window.addEventListener('scroll', () => {
+      let bodyHeight = document.documentElement.scrollTop || document.body.scrollTop;
+      let nav = document.querySelector('.main-menu');
+      if (bodyHeight > 100 ) {
+        nav.classList.add('fixed-top');
+      } else {
+        nav.classList.remove('fixed-top');
+      }
+    })
     
   },[]);
   return (
