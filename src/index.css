@@ -78,6 +78,14 @@ footer .logo {
 .navbar-brand .logo {
   width: 100%;
 }
+.icon-bar {
+  width: 22px;
+  height: 1px;
+  display: block;
+  background-color: #ffffff;
+  border-radius: 1px;
+  margin: 7px;
+}
 .header-content, .about-content {
   text-align: center;
 }
