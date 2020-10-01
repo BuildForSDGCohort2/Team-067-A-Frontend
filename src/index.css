@@ -167,14 +167,12 @@ footer .logo {
   position: absolute;
   width: 100%;
   z-index: 999;
-  display: none;
 }
 .fixed-top {
   position: sticky;
   top: 0;
   z-index: 9999;
   overflow-x: hidden;
-  display: none;
 }
 footer {
   background-color: hsla(214, 35%, 21%, 0.95);
