@@ -48,6 +48,8 @@ body {
   }
 }
 .header-container {
+  position: relative;
+  top: 0;
   padding: 7em 0;
   text-transform: uppercase;
 }
@@ -162,12 +164,15 @@ footer .logo {
   transition: height 0.2s ease-in-out;
 } 
 .main-menu {
+  position: absolute;
+  width: 100%;
   z-index: 999;
 }
 .fixed-top {
   position: fixed;
   top: 0;
   z-index: 9999;
+  overflow-x: hidden;
 }
 footer {
   background-color: hsla(214, 35%, 21%, 0.95);
