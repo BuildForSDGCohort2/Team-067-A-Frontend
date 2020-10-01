@@ -50,6 +50,7 @@ body {
 .header-container {
   position: relative;
   top: 0;
+  right: 0;
   padding: 7em 0;
   text-transform: uppercase;
 }
