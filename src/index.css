@@ -50,7 +50,7 @@ body {
 .header-container {
   padding: 7em 0;
   text-transform: uppercase;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 .header-container, .main-menu {
   background: linear-gradient(to right, #00134d, #111111);
