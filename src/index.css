@@ -48,8 +48,6 @@ body {
   }
 }
 .header-container {
-  position: relative;
-  top: 0;
   padding: 7em 0;
   text-transform: uppercase;
 }
@@ -164,7 +162,6 @@ footer .logo {
   transition: height 0.2s ease-in-out;
 } 
 .main-menu {
-  position: absolute;
   width: 100%;
   z-index: 999;
 }
