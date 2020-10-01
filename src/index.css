@@ -49,6 +49,7 @@ body {
 }
 .header-container {
   padding: 7em 0;
+  margin-right: 0;
   text-transform: uppercase;
   overflow-x: hidden;
 }

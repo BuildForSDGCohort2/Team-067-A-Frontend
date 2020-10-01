@@ -5,7 +5,7 @@ function Header() {
     
     return (
         <header className="header-container">
-            <div className="pb-5 header-content-container">
+            <div className="container pb-5 header-content-container">
                 <div className="row">
                     <div className="col-lg-5 col-md-7 my-auto">
                         <div className="header-content text-white" >
