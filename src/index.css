@@ -55,6 +55,8 @@ body {
 }
 .header-container, .main-menu {
   background: linear-gradient(to right, #00134d, #111111);
+  width: 100%;
+  overflow-x: hidden;
 }
 .logo {
   width: 40%;
