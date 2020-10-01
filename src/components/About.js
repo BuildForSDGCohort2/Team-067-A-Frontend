@@ -26,11 +26,11 @@ function About() {
               </div>
               <div className="col-lg-6 my-auto">
                   <div className="about-content mx-auto text-dark px-3 py-5" data-aos="zoom-out">
-                      <p><b><span className="text-logo">EASY</span>CRM</b> is a customer relations management system targeted towards small scale businesses. It helps you boost sales by keeping an eye on customers, from nurturing leads to closing the sale and maintaining customer loyalty.
+                      <p><b><span className="text-logo">EASY</span>&nbsp;CRM</b> is a customer relations management system targeted towards small scale businesses. It helps you boost sales by keeping an eye on customers, from nurturing leads to closing the sale and maintaining customer loyalty.
                       
 
                       {
-                          read ? <span>It will save you time and money through sales force automation. <br /><br /><b><span className=" text-logo">EASY</span>CRM</b> is therefore the one-stop shop for your sales teams. 
+                          read ? <span> It will save you time and money through sales force automation. <br /><br /><b><span className=" text-logo">EASY</span>&nbsp;CRM</b> is therefore the one-stop shop for your sales teams. 
                         It can also be your gateway to increased sales productivity, healthier pipelines and better coordination between (and beyond) teams.</span>
                          : ''
                       }
