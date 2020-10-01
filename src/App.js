@@ -34,7 +34,7 @@ function App() {
       <Router>
         {isLoading ? <Overlay /> :
         <>
-        <Navbar />
+        {/* <Navbar /> */}
         <Route path='/' exact component={Main} />
         <Route path='/gallery' component={Gallery} />
         <Footer />
