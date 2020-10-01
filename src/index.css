@@ -169,7 +169,7 @@ footer .logo {
   z-index: 999;
 }
 .fixed-top {
-  position: fixed;
+  position: sticky;
   top: 0;
   z-index: 9999;
   overflow-x: hidden;
