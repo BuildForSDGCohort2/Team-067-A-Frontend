@@ -109,6 +109,12 @@ This project was built using these technologies.
 
 - Github: [@Chukwudi Eze](https://github.com/Kingsley-EZE)
 
+👤 **Jameel**
+
+- Github: [@Chukwudi Eze](https://github.com/Richifa)
+
+
+
 
 <!-- Application Features -->
 
