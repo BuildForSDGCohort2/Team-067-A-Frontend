@@ -107,11 +107,15 @@ This project was built using these technologies.
 
 👤 **Kingsley**
 
-- Github: [@Chukwudi Eze](https://github.com/Kingsley-EZE)
+- Github: [@Kingsley Eze](https://github.com/Kingsley-EZE)
 
 👤 **Jameel**
 
-- Github: [@Chukwudi Eze](https://github.com/Richifa)
+- Github: [@Jamilu Richifa](https://github.com/Richifa)
+
+👤 **Tony**
+
+- Github: [@Anthony Oparaji](https://github.com/Oparaji)
 
 
 
